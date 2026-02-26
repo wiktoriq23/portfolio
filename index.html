@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <header class="header">
+
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active" style="--i:1">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#skills" style="--i:3">Skills</a>
+      <a href="#portfolio" style="--i:4">Portfolio</a>
+      <a href="#contact" style="--i:5">Contact</a>
+
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Victoriya Mihaylova</h1>
+      <h3>And I'm a <span>Frontend UI Engineer</span></h3>
+      <p>I specialize in building clean, accessible, and responsive user interfaces with HTML, CSS, and modern web
+        technologies.</p>
+
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/viktoria-mihaylova-9664311b8" target="_blank"><i class="bx bxl-linkedin"
+            style="--i:8"></i></a>
+        <a href="https://github.com/wiktoriq23" target="_blank"><i class="bx bxl-github" style="--i:9"></i></a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="nova-snimka.PNG" alt="">
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="nova-snimka.PNG" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>My Journey & Expertise</h3>
+
+      <div class="about-boxes">
+        <!-- Education Box -->
+        <div class="about-box">
+          <i class='bx bxs-graduation'></i>
+          <h4>Education</h4>
+          <p><strong>Plovdiv University "Paisii Hilendarski"</strong><br>Sep 2016 – Mar 2020<br>Bachelor's Degree:
+            Business Information Technologies</p>
+          <hr>
+          <p><strong>PGSA "Arch. Kamen Petkov", Plovdiv</strong><br>Sep 2009 – May 2014<br>High School Diploma: Geodesy
+          </p>
+        </div>
+
+        <!-- Courses Box -->
+        <div class="about-box">
+          <i class='bx bx-book-reader'></i>
+          <h4>Courses & Certifications</h4>
+          <p><strong>JavaScript Course</strong><br>April – June 2022</p>
+          <hr>
+          <p><strong>Front-End Programming Course</strong><br>Sept 2020 – Jan 2021</p>
+        </div>
+
+        <!-- Skills Box -->
+        <div class="about-box">
+          <i class='bx bx-code-alt'></i>
+          <h4>Technical Skills</h4>
+          <p><strong>Web Design & Creation:</strong> Designing new pages and redesigning existing ones.</p>
+          <hr>
+          <p><strong>E-commerce:</strong> Building and maintaining online stores with OpenCart.</p>
+          <hr>
+          <p><strong>CMS:</strong> Working with WordPress to create corporate and personal websites.</p>
+          <hr>
+          <p><strong>Web Development:</strong> Knowledge of HTML, CSS, and JavaScript basics.</p>
+        </div>
+      </div>
+
+      <p class="about-summary">I strive for professional execution of every project and continuously upgrade my skills
+        in the dynamic tech environment.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skill-box">
+        <i class='bx bxl-html5'></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-css3'></i>
+        <h3>CSS3</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-javascript'></i>
+        <h3>JavaScript</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="tacos-website.jpg" alt="Terry's Taco Joint Project">
+        <div class="portfolio-layer">
+          <h4>Terry's Taco Joint</h4>
+          <p>A responsive promo website for a taco shop.</p>
+          <a href="https://github.com/wiktoriq23/My-tacos-website" target="_blank"><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="coffe-website.png" alt="Coffee Website Project">
+        <div class="portfolio-layer">
+          <h4>Coffee Website</h4>
+          <p>A modern frontend design for a coffee shop.</p>
+          <a href="https://github.com/wiktoriq23/Coffee-website" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="speaker-website-new.png" alt="Speakers Website Project">
+        <div class="portfolio-layer">
+          <h4 style="font-size: 26px;">Speakers E-commerce</h4>
+          <p>An online store interface designed for audio speakers.</p>
+          <a href="https://github.com/wiktoriq23/My-simply-website-speakers" target="_blank"><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Let's <span>Connect</span></h2>
+
+    <div class="contact-content">
+      <p>I'm always open to discussing web development work or partnership opportunities.<br>Feel free to reach out
+        through any of the platforms below!</p>
+
+      <div class="social-media-large">
+        <p style="font-size: 22px; font-weight: 500; margin-bottom: 20px; color: #0ef;">viktoriq112@gmail.com</p>
+        <a href="mailto:viktoriq112@gmail.com" class="btn"><i class='bx bx-envelope'></i> Send an Email</a>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/viktoria-mihaylova-9664311b8" target="_blank"><i
+              class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/wiktoriq23" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by Victoriya Mihaylova | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
